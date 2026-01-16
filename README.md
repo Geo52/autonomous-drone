@@ -27,7 +27,7 @@ gz sim -v4 -r iris_runway.sdf
 ```
 ```bash
 # ardupilot/Tools/autotest
-/sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console
+./sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console
 ```
 ```bash
 ros2 launch mavros apm.launch fcu_url:="udp://:14550@127.0.0.1:14555" gcs_url:="udp://@"
